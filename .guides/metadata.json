@@ -1,0 +1,152 @@
+{
+ "sections": [
+  {
+   "id": "b6ef93ef-37b3-4b2b-975f-2f0ce77672d7",
+   "title": "Gathering Requirements",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Gathering-Requirements-b6ef.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "be9949d8-0c1c-270d-bfac-3f5b0c03a0a9",
+   "title": "Importance of Requirements",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Importance-of-Requirements-be99.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "5d63ffde-2411-07a0-b7f0-560236c91b61",
+   "title": "Being a Dreamcatcher",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Being-a-Dreamcatcher-5d63.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "567a8724-27bb-010a-1ebc-fbe6b5f6880f",
+   "title": "Defining the User",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Defining-the-User-567a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3d54e2d3-01b1-f706-0576-7deeade9cf09",
+   "title": "The Holdup",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Holdup-3d54.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "48467f6d-fdce-317f-b568-0db9d8dc724c",
+   "title": "Organizing Visions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Organizing-Visions-4846.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "51eba8b9-184b-75a6-e8ae-811d7ae26946",
+   "title": "Organizing into JIRA",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Organizing-into-JIRA-51eb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "00923a89-2803-6d7b-c800-545fbf79735e",
+   "title": "Are we ready now?",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Are-we-ready-now--0092.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "83cc154b-5f20-4bc8-fe20-97dbe74c0dcd",
+   "title": "Writing User Stories",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Writing-User-Stories-83cc.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "a4ee1a10-bcae-bbc3-d3b9-2edecfaef04b",
+   "title": "User Stories: Why, When, Who",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/User-Stories--Why--When--Who-a4ee.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "59e09b61-4ac9-1ee6-4f90-4bdd605dcaf4",
+   "title": "User Stories: How",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/User-Stories--How-59e0.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "cffeff03-2bba-e4fc-acf1-e64e763194e0",
+   "title": "Definition of Ready",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Definition-of-Ready-cffe.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "49a0810e-b798-0910-53bd-8207208a4e5e",
+   "title": "Breaking Down Stories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Breaking-Down-Stories-49a0.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
