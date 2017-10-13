@@ -1,0 +1,35 @@
+{
+ "sections": [
+  {
+   "id": "d96bc37f-f662-dfe4-cfc0-218af783623",
+   "title": "Section 1",
+   "files": [
+    {
+     "path": "01_calculator/app/src/test/java/com/riis/calculator/CalculatorTest.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-1-d96b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "5503745-9f1c-153c-b38e-db7180c53c",
+   "title": "Section 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-2-5503.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}

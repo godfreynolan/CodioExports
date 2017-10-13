@@ -1,0 +1,17 @@
+Simple example to show how to build an Hello World android app from the command line
+
+# get stack ready
+Using the Android and Gradle stack
+1. git clone http://github.com/godfreynolan/codio in the workspace directory 
+2. android list sdk --all in the android-sdk-linux directory
+3. install the build tools, SDK etc for API-23
+4. android update sdk -u -a -t "n1, n2, n3" to get all the APIs downloaded
+5. chmod +x gradlew in the helloworld build directory 
+6. change compileSdkVersion to 23 and buildToolsVersion to "23.0.1" in build.gradle
+7. Add the following to the build.gradle file   
+   android {                                                                                                                                                             
+      lintOptions {                                                                                                                                                     
+          abortOnError false                                                                                                                                            
+      }                                                                                                                                                                 
+  }  
+8. run ./gradlew build 

@@ -1,0 +1,11 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Compile": "./gradlew build",
+        "Unit test": "./gradlew test --continue",
+        "Clean": "./gradlew clean"
+  }
+
+}
