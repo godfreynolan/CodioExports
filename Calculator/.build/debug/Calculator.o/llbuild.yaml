@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Calculator>]
+  Calculator: [<Calculator>]
+
+commands:
+  <Calculator-swiftc>:
+    tool: swift-compiler
+    executable: "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/codio/workspace/Calculator/Sources/Calculator.swift","/home/codio/workspace/Calculator/Sources/main.swift"]
+    outputs: ["<Calculator-swiftc>","/home/codio/workspace/Calculator/.build/debug/Calculator.swiftmodule","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/Calculator.swift.o","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/main.swift.o"]
+    module-name: "Calculator"
+    module-output-path: "/home/codio/workspace/Calculator/.build/debug/Calculator.swiftmodule"
+    is-library: false
+    sources: ["/home/codio/workspace/Calculator/Sources/Calculator.swift","/home/codio/workspace/Calculator/Sources/main.swift"]
+    objects: ["/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/Calculator.swift.o","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/main.swift.o"]
+    import-paths: ["/home/codio/workspace/Calculator/.build/debug"]
+    temps-path: "/home/codio/workspace/Calculator/.build/debug/Calculator.o/Calculator"
+    other-args: ["-j8","-Onone","-g","-I","/usr/local/include"]
+  <Calculator>:
+    tool: shell
+    inputs: ["<Calculator-swiftc>","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/Calculator.swift.o","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/main.swift.o"]
+    outputs: ["<Calculator>","/home/codio/workspace/Calculator/.build/debug/Calculator"]
+    args: ["/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/bin/swiftc","-o","/home/codio/workspace/Calculator/.build/debug/Calculator","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/Calculator.swift.o","/home/codio/workspace/Calculator/.build/debug/Calculator.o/Sources/main.swift.o","-g","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/Calculator"

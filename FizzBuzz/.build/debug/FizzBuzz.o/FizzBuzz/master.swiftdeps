@@ -1,0 +1,6 @@
+version: "Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 0ddf238ad7)"
+options: "3afe27906757f9ce7a0b30e1ae46f367"
+build_time: [512877111, 587494000]
+inputs:
+  "/home/codio/workspace/FizzBuzz/Sources/FizzBuzz.swift": [512876212, 0]
+  "/home/codio/workspace/FizzBuzz/Sources/main.swift": [512876402, 0]

@@ -1,0 +1,33 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "first"
+- "last"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "last"
+- "UnicodeScalarType"
+- "+"
+- "print"
+- "StringLiteralType"
+- "first"
+depends-member:
+- ["SS", "deinit"]
+depends-nominal:
+- "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+interface-hash: "cf77539bd4356dae2832280c7cba67cc"

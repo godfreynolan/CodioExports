@@ -1,0 +1,74 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FizzBuzzTests"
+provides-nominal:
+- "C8FizzBuzz13FizzBuzzTests"
+provides-member:
+- ["C8FizzBuzz13FizzBuzzTests", ""]
+depends-top-level:
+- "FizzBuzzTests"
+- !private "StringLiteralType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "FizzBuzz"
+depends-member:
+- !private ["Ps9AnyObject", "FizzBuzz"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- ["Ps9AnyObject", "allTests"]
+- !private ["Ps9AnyObject", "check"]
+- !private ["Ps9AnyObject", "fizzbuzz"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["C8FizzBuzz8FizzBuzz", "check"]
+- !private ["C8FizzBuzz8FizzBuzz", "init"]
+- ["C8FizzBuzz13FizzBuzzTests", "FizzBuzz"]
+- !private ["C8FizzBuzz13FizzBuzzTests", "XCTAssertEqual"]
+- ["C8FizzBuzz13FizzBuzzTests", "allTests"]
+- ["C8FizzBuzz13FizzBuzzTests", "deinit"]
+- ["C8FizzBuzz13FizzBuzzTests", "fizzbuzz"]
+- ["C8FizzBuzz13FizzBuzzTests", "init"]
+- ["C8FizzBuzz13FizzBuzzTests", "setUp"]
+- ["C8FizzBuzz13FizzBuzzTests", "testCheck_returnsBuzz"]
+- ["C8FizzBuzz13FizzBuzzTests", "testCheck_returnsFizz"]
+- ["C8FizzBuzz13FizzBuzzTests", "testCheck_returnsFizzBuzz"]
+- ["C8FizzBuzz13FizzBuzzTests", "testCheck_returnsNumber"]
+- !private ["Sq", "deinit"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["P6XCTest10XCTestCase", "FizzBuzz"]
+- !private ["P6XCTest10XCTestCase", "XCTAssertEqual"]
+- ["P6XCTest10XCTestCase", "allTests"]
+- !private ["P6XCTest10XCTestCase", "fizzbuzz"]
+- ["P6XCTest10XCTestCase", ""]
+- !private ["P6XCTest18XCTestCaseProvider", "FizzBuzz"]
+- !private ["P6XCTest18XCTestCaseProvider", "XCTAssertEqual"]
+- ["P6XCTest18XCTestCaseProvider", "allTests"]
+- !private ["P6XCTest18XCTestCaseProvider", "fizzbuzz"]
+- ["P6XCTest18XCTestCaseProvider", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8FizzBuzz8FizzBuzz"
+- "C8FizzBuzz13FizzBuzzTests"
+- !private "Sq"
+- !private "Vs12StaticString"
+- "P6XCTest10XCTestCase"
+- "P6XCTest18XCTestCaseProvider"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "42989071d503507c6865b3e1b3518a41"

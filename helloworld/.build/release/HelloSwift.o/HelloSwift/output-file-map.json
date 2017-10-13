@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/codio/workspace/helloworld/.build/release/HelloSwift.o/HelloSwift/master.swiftdeps"
+  },
+  "/home/codio/workspace/helloworld/sources/main.swift": {
+    "dependencies": "/home/codio/workspace/helloworld/.build/release/HelloSwift.o/HelloSwift/main.d",
+    "object": "/home/codio/workspace/helloworld/.build/release/HelloSwift.o/sources/main.swift.o",
+    "swiftmodule": "/home/codio/workspace/helloworld/.build/release/HelloSwift.o/HelloSwift/main~partial.swiftmodule",
+    "swift-dependencies": "/home/codio/workspace/helloworld/.build/release/HelloSwift.o/HelloSwift/main.swiftdeps"
+  }
+}

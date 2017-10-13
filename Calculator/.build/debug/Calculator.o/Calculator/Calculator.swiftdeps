@@ -1,0 +1,46 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Calculator"
+provides-nominal:
+- "C10Calculator10Calculator"
+provides-member:
+- ["C10Calculator10Calculator", ""]
+depends-top-level:
+- !private "+="
+- !private "-="
+- !private "*"
+- "IntegerLiteralType"
+- !private "/"
+- "Calculator"
+- "FloatLiteralType"
+- "Int"
+depends-member:
+- !private ["Ps9AnyObject", "total"]
+- ["Ps9AnyObject", ""]
+- ["C10Calculator10Calculator", "Int"]
+- ["C10Calculator10Calculator", "add"]
+- ["C10Calculator10Calculator", "deinit"]
+- ["C10Calculator10Calculator", "divide"]
+- ["C10Calculator10Calculator", "init"]
+- ["C10Calculator10Calculator", "multiply"]
+- ["C10Calculator10Calculator", "subtract"]
+- ["C10Calculator10Calculator", "total"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10Calculator10Calculator"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/LibcShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/RefCount.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/HeapObject.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/lib/swift/shims/module.map"
+interface-hash: "8f1cc809aa3a7afc3b9509f195b52b02"

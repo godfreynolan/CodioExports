@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/master.swiftdeps"
+  },
+  "/home/codio/workspace/FizzBuzz/Sources/FizzBuzz.swift": {
+    "dependencies": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/FizzBuzz.d",
+    "object": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/FizzBuzz.swift.o",
+    "swiftmodule": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/FizzBuzz~partial.swiftmodule",
+    "swift-dependencies": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/FizzBuzz.swiftdeps"
+  },
+  "/home/codio/workspace/FizzBuzz/Sources/main.swift": {
+    "dependencies": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/main.d",
+    "object": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/main.swift.o",
+    "swiftmodule": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/main~partial.swiftmodule",
+    "swift-dependencies": "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz/main.swiftdeps"
+  }
+}

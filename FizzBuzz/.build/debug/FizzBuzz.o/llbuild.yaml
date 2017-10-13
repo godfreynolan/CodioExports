@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<FizzBuzz>]
+  FizzBuzz: [<FizzBuzz>]
+
+commands:
+  <FizzBuzz-swiftc>:
+    tool: swift-compiler
+    executable: "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/codio/workspace/FizzBuzz/Sources/FizzBuzz.swift","/home/codio/workspace/FizzBuzz/Sources/main.swift"]
+    outputs: ["<FizzBuzz-swiftc>","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.swiftmodule","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/FizzBuzz.swift.o","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/main.swift.o"]
+    module-name: "FizzBuzz"
+    module-output-path: "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.swiftmodule"
+    is-library: false
+    sources: ["/home/codio/workspace/FizzBuzz/Sources/FizzBuzz.swift","/home/codio/workspace/FizzBuzz/Sources/main.swift"]
+    objects: ["/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/FizzBuzz.swift.o","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/main.swift.o"]
+    import-paths: ["/home/codio/workspace/FizzBuzz/.build/debug"]
+    temps-path: "/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/FizzBuzz"
+    other-args: ["-j8","-Onone","-g","-I","/usr/local/include"]
+  <FizzBuzz>:
+    tool: shell
+    inputs: ["<FizzBuzz-swiftc>","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/FizzBuzz.swift.o","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/main.swift.o"]
+    outputs: ["<FizzBuzz>","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz"]
+    args: ["/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/bin/swiftc","-o","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/FizzBuzz.swift.o","/home/codio/workspace/FizzBuzz/.build/debug/FizzBuzz.o/Sources/main.swift.o","-g","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/FizzBuzz"

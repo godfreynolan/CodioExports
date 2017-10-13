@@ -1,0 +1,5 @@
+version: "Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 0ddf238ad7)"
+options: "99ade7bf97f6a1375afa93f5cb5b4a63"
+build_time: [512875484, 56682000]
+inputs:
+  "/home/codio/workspace/helloworld/sources/main.swift": [512849521, 0]

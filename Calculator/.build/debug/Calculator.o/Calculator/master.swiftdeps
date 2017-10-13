@@ -1,0 +1,6 @@
+version: "Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 0ddf238ad7)"
+options: "cdec623cd4c57c2a148c6844abcca746"
+build_time: [512854653, 183158000]
+inputs:
+  "/home/codio/workspace/Calculator/Sources/Calculator.swift": [512854463, 0]
+  "/home/codio/workspace/Calculator/Sources/main.swift": [512854650, 0]

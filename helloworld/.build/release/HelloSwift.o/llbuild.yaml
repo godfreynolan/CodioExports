@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<HelloSwift>]
+  HelloSwift: [<HelloSwift>]
+
+commands:
+  <HelloSwift-swiftc>:
+    tool: swift-compiler
+    executable: "/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/bin/swiftc"
+    inputs: ["/home/codio/workspace/helloworld/sources/main.swift"]
+    outputs: ["<HelloSwift-swiftc>","/home/codio/workspace/helloworld/.build/release/HelloSwift.swiftmodule","/home/codio/workspace/helloworld/.build/release/HelloSwift.o/sources/main.swift.o"]
+    module-name: "HelloSwift"
+    module-output-path: "/home/codio/workspace/helloworld/.build/release/HelloSwift.swiftmodule"
+    is-library: false
+    sources: ["/home/codio/workspace/helloworld/sources/main.swift"]
+    objects: ["/home/codio/workspace/helloworld/.build/release/HelloSwift.o/sources/main.swift.o"]
+    import-paths: ["/home/codio/workspace/helloworld/.build/release"]
+    temps-path: "/home/codio/workspace/helloworld/.build/release/HelloSwift.o/HelloSwift"
+    other-args: ["-j8","-O","-I","/usr/local/include"]
+  <HelloSwift>:
+    tool: shell
+    inputs: ["<HelloSwift-swiftc>","/home/codio/workspace/helloworld/.build/release/HelloSwift.o/sources/main.swift.o"]
+    outputs: ["<HelloSwift>","/home/codio/workspace/helloworld/.build/release/HelloSwift"]
+    args: ["/usr/swift/swift-2.2-SNAPSHOT-2015-12-18-a-ubuntu14.04/usr/bin/swiftc","-o","/home/codio/workspace/helloworld/.build/release/HelloSwift","/home/codio/workspace/helloworld/.build/release/HelloSwift.o/sources/main.swift.o","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/release/HelloSwift"
